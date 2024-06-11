@@ -30,7 +30,7 @@ monaco.editor.defineTheme('net-theme-dark', {
 				base: 'vs-dark',
 				inherit: true,
 				colors: {
-					"editor.background": '#1111', //ur background color
+					"editor.background": 'blue', //ur background color
 				},
 				rules: [{
 						token: 'global',
@@ -63,7 +63,7 @@ monaco.editor.defineTheme('net-theme-dark', {
             editor = monaco.editor.create(document.getElementById("container"), {
                 value: '',
                 language: "lua",
-				
+				theme: "net-theme-dark",
 				dragAndDrop: true,
 				links: false,
 				minimap: {
